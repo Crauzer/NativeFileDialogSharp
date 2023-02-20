@@ -1,4 +1,4 @@
-﻿namespace NativeFileDialogSharp.Sandbox;
+﻿namespace NativeFileDialogExtendedSharp.Sandbox;
 
 internal class Program
 {

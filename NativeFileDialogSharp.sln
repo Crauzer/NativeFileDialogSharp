@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeFileDialogSharp", "NativeFileDialogSharp\NativeFileDialogSharp.csproj", "{25EAE3E4-AA29-4008-87B1-A7D908173A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeFileDialogExtendedSharp", "NativeFileDialogSharp\NativeFileDialogExtendedSharp.csproj", "{25EAE3E4-AA29-4008-87B1-A7D908173A9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeFileDialogSharp.Sandbox", "NativeFileDialogSharp.Sandbox\NativeFileDialogSharp.Sandbox.csproj", "{6D11F64E-E059-47E1-97B9-DE208A5BDA4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeFileDialogSharp.Sandbox", "NativeFileDialogSharp.Sandbox\NativeFileDialogSharp.Sandbox.csproj", "{6D11F64E-E059-47E1-97B9-DE208A5BDA4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

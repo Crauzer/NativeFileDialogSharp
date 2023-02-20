@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace NativeFileDialogSharp;
+namespace NativeFileDialogExtendedSharp;
 
 public struct NfdFilter
 {
