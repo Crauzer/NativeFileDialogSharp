@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>11</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <Authors>Crauzer</Authors>
+    <PackageProjectUrl>https://github.com/Crauzer/NativeFileDialogSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Crauzer/NativeFileDialogSharp</RepositoryUrl>
+    <PackageTags>dialog;file;filedialog;native</PackageTags>
+    <PackageLicenseExpression> GPL-3.0-only</PackageLicenseExpression>
+    <Version>0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="runtimes\linux-x64\" />
+    <Folder Include="runtimes\osx-x64\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="nfd.dll">
+      <Pack>true</Pack>
+      <PackagePath>lib\$(TargetFramework)</PackagePath>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="nfd.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
